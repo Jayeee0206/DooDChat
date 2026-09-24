@@ -1,0 +1,25 @@
+{
+  "name": "doodchat",
+  "version": "1.0.0",
+  "description": "面向少量朋友的一次性轻量聊天室，支持文字、图片、回复、回应、语音和共享音乐",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ws": "^8.21.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "chat",
+    "websocket",
+    "webrtc",
+    "ephemeral",
+    "friends"
+  ]
+}
